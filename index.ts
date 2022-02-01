@@ -8,6 +8,7 @@ export function app1(a: number, b: number) {
 }
 
 // for app2
+// good comment
 export function app2(a: number, b: number) {
   return binomial(a, b, [1, -1, 1, 2]);
 }
