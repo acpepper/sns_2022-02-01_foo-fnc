@@ -3,7 +3,7 @@ export function binomial(a: number, b: number, coeffs: Array<number>) {
 }
 
 export function app1(a: number, b: number) {
-  return binomial(a, b, [-1, 2, 1, 1]);
+  return binomial(a, b, [1, 2, 1, 1]);
 }
 
 export function app2(a: number, b: number) {
